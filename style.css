@@ -1,6 +1,11 @@
+body {
+  background-image: url(background-pixel-art-gif.gif);
+}
 #title {
   text-align: center;
   margin-top: 30px;
+  color: rgb(247, 239, 243);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #color-palette {
@@ -14,6 +19,7 @@
   height: 60px;
   margin-left: 50px;
   margin-top: 30px;
+  border-radius: 10px;
 }
 
 #black {
@@ -30,7 +36,7 @@
 }
 
 #pixel-board {
-  padding-left: 40%;
+  padding-left: 41%;
   padding-top: 40px;
 }
 
@@ -43,7 +49,11 @@
 }
 
 #clear-board {
-  margin-left: 47%;
+  margin-left: 46.5%;
+  border-radius: 5px;
+  padding: 7px 15px;
+  background-color: rgb(138, 43, 226);
+  border: 0px;
 }
 
 .white {
